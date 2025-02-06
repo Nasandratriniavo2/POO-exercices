@@ -11,7 +11,7 @@ isa::ComplexeQ Addition::addition(isa::Complexe a, isa::Rationnel b) {
     isa::Rationnel imaginaire = isa::Rationnel(a.imaginaire, 1);
     isa::Rationnel reelle = isa::Rationnel(numera, denom);
 
-return isa::ComplexeQ(reelle,imaginaire);
+    return isa::ComplexeQ(reelle,imaginaire);
 }
 
 isa::Rationnel Addition::addition(isa::Rationnel a, float b) {
